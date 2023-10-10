@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #17a2b8;
+    height: 100vh;
+  }
+
+  #login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+  }
+
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+  }
+
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  center h1 .success{
+    color:green;
+  }
+
+  center h3 .danger{
+    color:red;
+    animation: blink 1s infinite;
+  }
+
+  table tr th{
+    width:120px;
+    height:45px;
+  } 
+  table tr{
+    text-align: center;
+  }
+
+  table caption h1{
+    color:white;
+  }
+table{
+  background-color: #c9e2e6;
+  margin:auto;  
+}
+.buttons form{
+  text-align: center;
+}
+#display_table, #create_new_table, #update_existing_table, #log_out{
+  border:none;
+  padding:10px;
+  align-self: center;
+  background-color:  #c9e2e6;
+  margin-left:10px;
+}
+#display_table:hover, #create_new_table:hover, #update_existing_table:hover, #log_out:hover{
+  box-shadow:2px 2px 6px rgb(0,0,0,0.5);
+  border:2px solid black;
+}
+
+form .button {
+  position: relative;
+ text-align: center;
+}
+
+#form_table{
+  background-color: aliceblue;
+}
